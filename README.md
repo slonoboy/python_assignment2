@@ -28,7 +28,7 @@ Where title is obviously a title of an article, body it's first paragraph, link 
 >>> news[0]["body"] 
 'Technical glitches and other issues have plagued BTC adoption among Salvadorans in the last month. Let&rsquo;s see what happened in the last month of BTC as a legal tender in El Salvador.&nbsp;\nControversial BTC Tender In Action\nIt has been a month since the Central American coun...'
 
->>> for i in range(5):                      "])
+>>> for i in range(5):                     
 ...     print(str(i+1) + ") " + news[i]["title"])
 ... 
 '1) One Month Of BTC: Ups And Downs Of El Salvador’s Bitcoin Adoption'
@@ -37,7 +37,7 @@ Where title is obviously a title of an article, body it's first paragraph, link 
 '4) Ted Cruz Believes Texas’ Abundant Energy Is Opportunity for Bitcoin'
 '5) Bitcoin trades $8,000 below its all-time high as it’s on track to hit $57k'
 
->>> for i in range(5):                     "])
+>>> for i in range(5):                    
 ...     print(str(i+1) + ") " + news[i]["link"]))
 ... 
 '1) /headlines/news/one-month-of-btc-ups-and-downs-of-el-salvadors-btc-adoption/'
