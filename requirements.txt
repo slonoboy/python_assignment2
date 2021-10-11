@@ -1,0 +1,7 @@
+# python of any version of python3 is required
+# selenium 3.141.0 and greater
+use <pip install selenium> to install
+# beautifulsoup4 4.10.0 and greater 
+use <pip install beautifulsoup4> to install
+# requests 2.26.0 and greater 
+use <pip install requests> to install
