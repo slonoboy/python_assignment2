@@ -9,7 +9,7 @@ from CoinInfo import CoinInfo
 scrapper = CoinInfo()
 
 ```
-Using scrapper object it is possible to retrieve news about any cryptocurrency availible in coinmarketcap.com. 
+Using scrapper object it is possible to retrieve news about any cryptocurrency availible in coinmarketcap.com. It retrieves up to 25 news
 ``` python
 >>> news = scrapper.get_paragraphs('bitcoin') # now news is a list of dictionaries
 ```
